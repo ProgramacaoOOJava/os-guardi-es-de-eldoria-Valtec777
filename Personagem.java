@@ -2,14 +2,15 @@ public class Personagem {
     // 1. Atributos do personagem 
     String nome;
     String classe;
+    int nível;
     int pontosDeVida;
     double poderBase;
     // 2. Metodo para exibir as informações
-    public voide exibirStatus() {
+    public void exibirStatus() {
         System.out.println("Nome: " + this.nome
         System.out.println("Classe: " + this.classe);
         System.out.println("Nível: " + this.nivel);
-        System.out.println("Pontos de Vida: " + this.pontosDeVida);
+        System.out.println("pontos de Vida: " + this.pontosDeVida);
         System.out.println("Poder Base: " + this.poderBase);
         
     }
@@ -24,7 +25,7 @@ public class Personagem {
     p1. poderBase = 12.5;
 
     //Criando o segundo personagem p2 = new Persona
-        Personagem p2 = new Persona();
+        Personagem p2 = new Personagem();
         p2.nome = " Ragnar ";
         p2.classe = "Guerreiro";
         p2.nivel = 6;
