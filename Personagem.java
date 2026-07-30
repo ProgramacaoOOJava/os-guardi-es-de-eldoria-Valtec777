@@ -17,9 +17,13 @@ public class Personagem {
      
     // Metodo para exibir o status
     public void exibirStatus() {
-        System.out.println("--- Status do Personagem ---");
-        
+        System.out.println("Nome: "  + nome);
+        System.out.println("Classe: " + classe);
+        System.out.println("Nivel: " + nivel);
+        System.out.println("Pontos de vida: " + pontosDeVida);
+        System.out.println("Poder Base: " + poderBase);
 
+        
     }
 }
 
